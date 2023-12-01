@@ -1,3 +1,8 @@
+/*
+Created By: Sarah Yun
+Modified By: Sarah Yun, Nov/30/2023
+*/
+
 import Booking from './booking.model.js';
 
 export async function CreateBooking(req, res){

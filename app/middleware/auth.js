@@ -1,3 +1,7 @@
+/*
+Created By: Sarah Yun
+Modified By: Sarah Yun, Apr/09/2023
+*/
 
 import User from '../user/user.model.js';
 

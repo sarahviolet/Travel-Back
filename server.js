@@ -1,4 +1,7 @@
-
+/*
+Created By: Sarah Yun
+Modified By: Sarah Yun, Nov/30/2023
+*/
 
 import express from 'express';
 import cors from 'cors';
@@ -16,7 +19,7 @@ import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-
+import userRouter from './app/user/user.route.js';
 import BookingRouter from './app/booking/booking.route.js';
 
 
@@ -41,7 +44,7 @@ db.on('error', () => console.error('Connection Error'));
 
 
 
-
+app.use('/', userRouter);
 app.use('/', BookingRouter);
 
 

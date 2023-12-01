@@ -1,4 +1,7 @@
-
+/*
+Created By: Sarah Yun
+Modified By: Sarah Yun, Nov/30/2023
+*/
 
 import mongoose from 'mongoose';
 const {Schema,model} = mongoose;
